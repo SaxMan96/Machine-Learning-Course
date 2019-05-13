@@ -5,7 +5,7 @@ library(randomForest)
 library(adabag)
 library(gbm)
 
-data_file = "F:\\MiNI IAD\\Sem 1\\Machine Learning\\Lab8\\SAheart.data"
+data_file = "F:\\MiNI IAD\\Sem 1\\Machine Learning\\Laboratoria\\Machine-Learning-Course\\Lab8\\SAheart.data"
 
 heart_raw <- read.table(data_file, h=T, row.names = 1,sep=",")
 heart <- heart_raw
